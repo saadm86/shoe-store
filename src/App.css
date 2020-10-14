@@ -1,10 +1,17 @@
+body{
+  text-align: center;
+}
 .productContainer{
   display: flex;
   flex-wrap: wrap;
 }
-.productContainer > div{
+.productContainer > .link{
   max-width: 500px;
   box-shadow: 0 0 10px grey;
   text-align: center;
   margin: 10px;
+  padding: 10px;
+}
+.productContainer > .link:hover{
+  background-color: grey;
 }
