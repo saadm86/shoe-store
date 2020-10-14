@@ -15,3 +15,9 @@ body{
 .productContainer > .link:hover{
   background-color: grey;
 }
+.nav-link{
+  padding: 10px
+}
+.App > nav{
+  margin-bottom: 30px;
+}

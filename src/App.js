@@ -8,11 +8,12 @@ import {ProductItem} from './components/ProductItem'
 
 function App() {
   return (
+    
     <div className="App">
       <nav>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/products'>Products</Link>
+        <Link className= "nav-link" to='/'>Home</Link>
+        <Link className= "nav-link" to='/about'>About</Link>
+        <Link className= "nav-link" to='/products'>Products</Link>
       </nav>
       <Switch>
         <Route exact path='/' component={Home}/>
